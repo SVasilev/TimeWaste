@@ -1,0 +1,3 @@
+INDEX VERSION 1.126+D:\Programming\TimeWaste\.metadata\.plugins\org.eclipse.jdt.core
+622936035.index
+1284074322.index
