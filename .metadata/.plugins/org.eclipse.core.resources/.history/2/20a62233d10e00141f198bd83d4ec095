@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TimeWaste</string>
+    <string name="edit_message">Write something.</string>
+    <string name="std_message">Write something&#8230; </string>
+    <string name="edit_text_text">Write something&#8230; </string>
+    <string name="action_settings">Settings</string>
+
+</resources>
