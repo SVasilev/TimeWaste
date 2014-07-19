@@ -12,7 +12,6 @@ import org.andengine.entity.scene.background.Background;
 import org.andengine.entity.util.FPSLogger;
 import org.andengine.opengl.vbo.VertexBufferObjectManager;
 import org.andengine.ui.activity.SimpleBaseGameActivity;
-import org.andengine.util.color.Color;
 
 /**
  * (c) 2010 Nicolas Gramlich 
@@ -72,10 +71,6 @@ public class TickTackToe extends SimpleBaseGameActivity {
 		final Random random = new Random(RANDOM_SEED);
 
 		final VertexBufferObjectManager vertexBufferObjectManager = this.getVertexBufferObjectManager();
-		
-		final Line line = new Line(10, 10, 10, 20, vertexBufferObjectManager);
-		line.setColor(new Color(255, 0, 0));
-		
 		for(int i = 0; i < LINE_COUNT; i++) {
 			final float x1 = random.nextFloat() * CAMERA_WIDTH;
 			final float x2 = random.nextFloat() * CAMERA_WIDTH;
