@@ -1,6 +1,8 @@
 package com.example.timewaste;
 
 import android.support.v7.app.ActionBarActivity;
+import android.app.AlertDialog;
+import android.content.Context;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -25,6 +27,11 @@ public class TimeWaste extends ActionBarActivity {
     	EditText edit_text = (EditText) findViewById(R.id.std_message);
     	String message = edit_text.getText().toString();
     	my_intent.putExtra(EXTRA_MESSAGE, message);
+    	startActivity(my_intent);
+    }
+    
+    public void playGame(View view) {
+    	Intent my_intent = new Intent(this, TickTackToe.class);
     	startActivity(my_intent);
     }
 
