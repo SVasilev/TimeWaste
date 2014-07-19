@@ -7,4 +7,5 @@
 <fullyQualifiedTypeName name="android.app.Fragment"/>
 <fullyQualifiedTypeName name="com.example.timewaste.TimeWaste"/>
 <fullyQualifiedTypeName name="android.widget.TextView"/>
+<fullyQualifiedTypeName name="com.example.timewaste.R.layout"/>
 </qualifiedTypeNameHistroy>
